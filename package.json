@@ -1,0 +1,28 @@
+{
+  "name": "jarvis-mark-i",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 6061",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "loudness": "^0.4.2",
+    "lucide-react": "^1.42.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "^0.185.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "tailwindcss": "^4"
+  },
+  "description": "J.A.R.V.I.S. Mark I: a voice-first desktop assistant with a holographic display (Next.js, React Three Fiber, Gemini Live)",
+  "license": "MIT"
+}
